@@ -1,2 +1,7 @@
-package Program.Service;public interface SafeToyAsFile {
+package Program.Service;
+
+import Program.Model.Toy;
+
+public interface SafeToyAsFile {
+    void safeToy(Toy toy);
 }

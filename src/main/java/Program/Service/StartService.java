@@ -1,2 +1,6 @@
-package Program.Service;public interface StartService {
+package Program.Service;
+
+public interface StartService {
+
+    void start();
 }
