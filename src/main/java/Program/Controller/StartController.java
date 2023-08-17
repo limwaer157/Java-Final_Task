@@ -6,9 +6,6 @@ import Program.Service.StartService;
 
 import java.util.*;
 
-// TODO: 07.08.2023 1) Напишите класс-конструктор у которого принимает минимум 3 строки,
-//  содержащие три поля id игрушки, текстовое название и частоту выпадения игрушки
-//2) Из принятой строки id и частоты выпадения(веса) заполнить минимум три массива.
 
 public class StartController implements StartService {
     Scanner scanner = new Scanner(System.in);
